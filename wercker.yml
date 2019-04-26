@@ -67,5 +67,4 @@ deploy-to-cluster:
       server: $KUBERNETES_MASTER
       token: $KUBERNETES_AUTH_TOKEN
       insecure-skip-tls-verify: true
-#      command: apply -f alpha-office-product-catalog.kubernetes.yml
-      command: apply -f twitter-feed-oke.kubernetes.yml
+      command: apply -f alpha-office-product-catalog.kubernetes.yml
